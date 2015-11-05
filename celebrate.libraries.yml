@@ -1,0 +1,5 @@
+celebrate:
+  version: 1.x
+  css:
+    theme:
+      celebrate.theme.css: {}

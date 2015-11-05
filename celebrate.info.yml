@@ -1,0 +1,5 @@
+name: Celebrate
+description: Custom filter to replace a celebrate token.
+type: module
+package: custom
+core: 8.x
