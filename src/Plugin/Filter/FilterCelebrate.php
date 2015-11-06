@@ -32,7 +32,7 @@ class FilterCelebrate extends FilterBase {
 
     $result = new FilterProcessResult($new_text);
     $result->setAttachments(array(
-      'library' => array('celebrate/celebrate'),
+      'library' => array('celebrate/celebrate-shake'),
     ));
 
     return $result;
