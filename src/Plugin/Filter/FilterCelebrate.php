@@ -27,7 +27,7 @@ class FilterCelebrate extends FilterBase {
    */
   public function process($text, $langcode) {
     $invitation = $this->settings['celebrate_invitation'] ? ' Come on!' : '';
-    $replace = '<span class="celebrate-filter">Good Times!' . $invitation . ' </span>';
+    $replace = '<span class="celebrate-filter">' . $this->t('Good Times!' . $invitation) . ' </span>';
     $new_text = str_replace('[celebrate]', $replace, $text);
 
     $result = new FilterProcessResult($new_text);
